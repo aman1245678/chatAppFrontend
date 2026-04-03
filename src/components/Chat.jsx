@@ -88,7 +88,7 @@ function Chat({ socket, user, onLogout }) {
     notificationDiv.className = `notification ${type}`;
     notificationDiv.innerHTML = `
       <div class="notification-content">
-        <span class="notification-icon">${type === 'join' ? '👋' : '👋'}</span>
+        <span class="notification-icon">${type === 'join' ? '' : ''}</span>
         <span>${message}</span>
       </div>
     `;
