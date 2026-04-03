@@ -139,10 +139,10 @@ function Chat({ socket, user, onLogout }) {
         </div>
         <div className="header-buttons">
           <button onClick={clearChatHistory} className="clear-btn" title="Clear chat history">
-            🗑️ Clear History
+             Clear History
           </button>
           <button onClick={onLogout} className="logout-btn" title="Logout">
-            🚪 Logout
+             Logout
           </button>
         </div>
       </div>

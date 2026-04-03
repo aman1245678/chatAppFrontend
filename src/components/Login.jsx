@@ -56,7 +56,7 @@ function Login({ onLogin, loading }) {
           {error && <div className="error-message">{error}</div>}
         </form>
         <div className="login-footer">
-          <p>Join the conversation now!</p>
+          <p>Join the conversation now </p>
         </div>
       </div>
     </div>

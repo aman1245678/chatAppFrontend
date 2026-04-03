@@ -51,7 +51,7 @@ function MessageInput({ onSendMessage, onTyping, isConnected }) {
           className={`send-button ${!message.trim() || !isConnected ? 'disabled' : ''}`}
           disabled={!message.trim() || !isConnected}
         >
-          <span>📤</span>
+          <span>YOOY</span>
           Send
         </button>
       </div>

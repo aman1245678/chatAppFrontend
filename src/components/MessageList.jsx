@@ -31,7 +31,7 @@ function MessageList({ messages, currentUser }) {
       {messages.length === 0 ? (
         <div className="no-messages">
           <div className="no-messages-icon">💬</div>
-          <p>No messages yet</p>
+          <p>WAIT</p>
           <p className="no-messages-subtitle">Be the first to start the conversation!</p>
         </div>
       ) : (
